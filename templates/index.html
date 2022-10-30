@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENDA</title>
+</head>
+<body> 
+    <header>
+        <div>
+        <style>
+        body {
+            background-color: lavender;
+            animation-name: cambiacolor;
+            animation-duration: 10s;  
+        }      
+        @keyframes cambiacolor{
+        from {
+            background:rgb(53, 185, 215);
+        }
+        25%{
+            background: rgb(244, 137, 235);
+        }
+        50%{
+            background: rgb(177, 255, 237);
+        }
+        75%{
+            background: rgb(196, 138, 255);
+        }
+        100%{
+            background: lavender;
+        }  
+}           
+        .usuario{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+            
+        h5{
+            text-align: center;
+            border-radius: 10px;
+            font-size: xx-large;
+        }
+                
+        div{
+            text-align: center;
+            /* font-size: large;
+            border: 10px;
+            display: flex; */  
+        }
+            
+        input{
+            text-align: center;
+            font-size: large;
+            border: 10px;    
+        }
+                
+        button{
+            font-size: large;
+            border-bottom: 10px;
+            color: rgb(41, 37, 37);
+            text-decoration: solid;
+            background-color: lavender;
+                    
+        }
+            
+        div .botonimagen{
+            float: right;
+            margin: 70px;
+        }
+        </style>
+            <center><img class= "usuario" src="../static/usuario.png" alt=""></center>
+            <form action=""><h5>Registro</h5>
+                <input type="text" name = "nombre" placeholder="nombre de usuario" required><p>
+                <input type="text" name = "apellido"  placeholder="apellido" required><p>
+                <input type="text" name = "correo"  placeholder="ingrese correo" required><p>
+                <input type="password" name = "contraseña"  placeholder="contraseña" required><p>
+                <input class ="boton" type="submit" value="Ingrese"><a href="../templates/inicio.html"></a>
+           </form>
+       
+        
+            </div>
+        </div>
+    </header>
+</head>
+<body>
+
+</body>
+</html>

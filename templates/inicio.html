@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENDA</title>
+</head>
+<body>
+    <style>
+    body{
+        background-color: rgb(131, 191, 239);
+        animation-name: cambiacolor;
+        animation-duration: 10s;        
+    }
+    h2{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    h3{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .iniciologo{
+        height: 400px;
+        width: 500px;    }
+    .notas{
+        margin: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .botones{
+        border: 0px;
+        background:lavender;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    
+    
+    </style>
+
+    <form action="notaguadada" method="POST">
+        <div class="animacion"></div>
+        <center><img class="iniciologo" src="../static/logo.PNG" alt=""></center>
+        <h2>Bienvenido a  WORBIT
+        </h2><br>
+        <h3>La nueva y mejorada agenda que renueva al Mundo :D</h3>
+       <center><button class = "botones"><a class="notas" href="../templates/nota.html">NOTAS</a></button>
+          
+
+        <button class = "botones"><a class="notas" href="../templates/galeria.html">GALERIA</a></button>
+        
+        <button class = "botones"><a class="notas" href="../templates/notavoz.html">NOTAS DE VOZ</a></button>
+        </center>
+    </form>
+</body>
+</html>
